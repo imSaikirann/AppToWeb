@@ -18,7 +18,7 @@ export default function Home() {
           <FormControl id="email" isRequired mt="4">
             <Input type="email" placeholder="Email" fontSize="12px" borderRadius="12px" bg="#F1F1F1" border="0" h="55px" />
           </FormControl>
-          <FormControl id="password" isRequired mt="4">
+          <FormControl id="pass" isRequired mt="4">
             <Input type="password" placeholder="Password" fontSize="12px" borderRadius="12px" bg="#F1F1F1" border="0" h="55px"/>
           </FormControl>
           <Link to="/main">   <Flex justify="flex-end" mt="6rem">
