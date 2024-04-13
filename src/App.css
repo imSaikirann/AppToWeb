@@ -36,3 +36,15 @@
     transform: rotate(360deg);
   }
 }
+
+.checkbox-input {
+  border: 1px solid #ccc;
+  padding: 5px;
+  width: 300px;
+  min-height: 30px;
+  cursor: text;
+}
+
+.checkbox-input label {
+  display: block;
+}

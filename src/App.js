@@ -1,13 +1,23 @@
-
 import './App.css';
-import Inp from './Inp';
+import { ChakraProvider } from '@chakra-ui/react'; // Import ChakraProvider
+import Home from './Pages/Home';
+import Next from './Pages/Next'
+import RegPage from './Pages/RegPage'
+import {BrowserRouter,Routes,Route} from "react-router-dom"
 
 function App() {
   return (
-    <div className="App">
-    <Inp/>
-      
-    </div>
+    <ChakraProvider> {/* Wrap your app with ChakraProvider */}
+    <BrowserRouter>
+    <Routes>
+      <Route path='/' element={<Home />}></Route>
+      <Route path='/next' element={<Next/>}></Route>
+      <Route path='/reg' element={ <RegPage/>}></Route>
+
+    </Routes>
+    </BrowserRouter>
+  
+    </ChakraProvider>
   );
 }
 
