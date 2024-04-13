@@ -2,6 +2,7 @@ import React from "react";
 import { Box, Center, Image, Text, Flex } from "@chakra-ui/react";
 import { Link } from "react-router-dom";
 
+
 export default function Home() {
   return (
     <Center>
@@ -34,7 +35,7 @@ export default function Home() {
       borderRadius="50%"
       bg="#89A1FF"
       ml="14rem"
-      mt="5rem"
+      mt="2rem"
     >
       <Box
       
